@@ -1,16 +1,20 @@
 class Solution(object):
     def longestPalindrome(self, s):
         
-        n = [0,0]
-        
+        n = {}
         
         for k in s:
-            n[1] += s.count(k) // 2
-            n[0] += s.count(k) % 2
-            s = [i for i in s if i not in k]
-        ans = int(n[1]) * 2
-        
-        if n[0] != 0 : 
-            ans += 1
-            
+            if k in n.keys():
+                n[str(k)] += 1
+            else : 
+                n[str(k)] = 1
+
+        ans = 0
+        flag = True
+        for i in n.keys():
+            ans += int(n[i] // 2) * 2
+            if flag == True and n[i] % 2 == 1:
+                ans += 1
+                flag = False
+
         return ans
