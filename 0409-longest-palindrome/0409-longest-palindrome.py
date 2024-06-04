@@ -1,8 +1,14 @@
 class Solution(object):
     def longestPalindrome(self, s):
         
+        n = {}
         
-        n = Counter(s)
+        for k in s:
+            if k in n:
+                n[k] += 1
+            else : 
+                n[k] = 1
+
         ans = 0
         flag = True
         for i in n:
