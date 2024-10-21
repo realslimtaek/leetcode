@@ -38,3 +38,6 @@
 	</li>
 </ul>
 </div>
+
+--
+solved with Python-Backtracking Algorithms
