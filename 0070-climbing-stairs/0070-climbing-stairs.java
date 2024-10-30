@@ -1,10 +1,10 @@
 class Solution {
-    static int[] fib = new int[46];
+    static int[] fib;
     
     public int climbStairs(int n) {
+        fib= new int[n+1];
         fib[0] = 0;
         fib[1] = 1;
-        fib[2] = 1;
         fibonacci(n);
 
         return fib[n] + fib[n - 1];
