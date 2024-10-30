@@ -1,8 +1,8 @@
 class Solution {
-    static int[] fib;
+    static int[] fib = new int[46];
     
     public int climbStairs(int n) {
-        fib= new int[n+1];
+        Arrays.fill(fib,-1);
         fib[0] = 0;
         fib[1] = 1;
         fibonacci(n);
@@ -11,8 +11,7 @@ class Solution {
     }
 
     public int fibonacci(int n) {
-        if (n == 0) return 0;
-        if(fib[n] != 0 ) return fib[n];
+        if(fib[n] != -1 ) return fib[n];
 
         else return fib[n] = fibonacci(n - 1) + fibonacci(n - 2);
 
