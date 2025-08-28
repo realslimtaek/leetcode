@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/realslimtaek/leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
+| [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/realslimtaek/leetcode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/realslimtaek/leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 ## Two Pointers
 |  |
@@ -23,4 +24,16 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/realslimtaek/leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
+## Dynamic Programming
+|  |
+| ------- |
+| [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/realslimtaek/leetcode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
+## Memoization
+|  |
+| ------- |
+| [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/realslimtaek/leetcode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
+## Matrix
+|  |
+| ------- |
+| [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/realslimtaek/leetcode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 <!---LeetCode Topics End-->
