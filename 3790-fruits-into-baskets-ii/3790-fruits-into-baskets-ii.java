@@ -12,6 +12,7 @@ class Solution {
                 else {
                     checked[j] = true;
                     flag = true;
+                    break;
                 }
             }
 
