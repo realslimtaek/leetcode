@@ -8,10 +8,9 @@ class Solution {
             boolean flag = false;
             for(int j = 0; j< baskets.length; j++) {
                 if(flag) break;
-                if(checked[j]) continue;
                 if(fruit > baskets[j]) continue;
                 else {
-                    checked[j] = true;
+                    baskets[j] = 0;
                     flag = true;
                     break;
                 }
