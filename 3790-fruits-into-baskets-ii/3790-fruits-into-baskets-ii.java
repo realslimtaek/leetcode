@@ -1,6 +1,5 @@
 class Solution {
     public int numOfUnplacedFruits(int[] fruits, int[] baskets) {
-        boolean[] checked = new boolean[baskets.length];
         int ans = 0;
         for(int fruit: fruits) {
             boolean flag = false;
