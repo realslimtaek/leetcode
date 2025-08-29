@@ -9,7 +9,7 @@ class Solution {
                     baskets[j] = 0;
                     flag = true;
                     break;
-                } else continue;
+                }
             }
 
             if(!flag) ans += 1;
