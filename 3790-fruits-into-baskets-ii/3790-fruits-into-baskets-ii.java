@@ -1,5 +1,3 @@
-import java.util.*;
-
 class Solution {
     public int numOfUnplacedFruits(int[] fruits, int[] baskets) {
         boolean[] checked = new boolean[baskets.length];
