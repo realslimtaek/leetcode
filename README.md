@@ -36,4 +36,8 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/realslimtaek/leetcode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
+## Math
+|  |
+| ------- |
+| [3279-alice-and-bob-playing-flower-game](https://github.com/realslimtaek/leetcode/tree/master/3279-alice-and-bob-playing-flower-game) |
 <!---LeetCode Topics End-->
