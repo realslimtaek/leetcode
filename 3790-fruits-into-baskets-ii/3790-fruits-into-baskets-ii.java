@@ -7,7 +7,8 @@ class Solution {
         for(int i = 0; i<fruits.length; i++) {
             boolean flag = false;
             for(int j = 0; j< baskets.length; j++) {
-                if(checked[j] || flag) continue;
+                if(flag) break;
+                if(checked[j]) continue;
                 if(fruits[i] > baskets[j]) continue;
                 else {
                     checked[j] = true;
