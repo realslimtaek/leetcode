@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Array
 |  |
 | ------- |
+| [1006-vowel-spellchecker](https://github.com/realslimtaek/leetcode/tree/master/1006-vowel-spellchecker) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/realslimtaek/leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/realslimtaek/leetcode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/realslimtaek/leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
@@ -24,6 +25,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Hash Table
 |  |
 | ------- |
+| [1006-vowel-spellchecker](https://github.com/realslimtaek/leetcode/tree/master/1006-vowel-spellchecker) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/realslimtaek/leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 ## Dynamic Programming
 |  |
@@ -57,4 +59,8 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [3790-fruits-into-baskets-ii](https://github.com/realslimtaek/leetcode/tree/master/3790-fruits-into-baskets-ii) |
+## String
+|  |
+| ------- |
+| [1006-vowel-spellchecker](https://github.com/realslimtaek/leetcode/tree/master/1006-vowel-spellchecker) |
 <!---LeetCode Topics End-->
