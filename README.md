@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Math
 |  |
 | ------- |
+| [1642-water-bottles](https://github.com/realslimtaek/leetcode/tree/master/1642-water-bottles) |
 | [3279-alice-and-bob-playing-flower-game](https://github.com/realslimtaek/leetcode/tree/master/3279-alice-and-bob-playing-flower-game) |
 ## Binary Search
 |  |
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Simulation
 |  |
 | ------- |
+| [1642-water-bottles](https://github.com/realslimtaek/leetcode/tree/master/1642-water-bottles) |
 | [3790-fruits-into-baskets-ii](https://github.com/realslimtaek/leetcode/tree/master/3790-fruits-into-baskets-ii) |
 ## Ordered Set
 |  |
