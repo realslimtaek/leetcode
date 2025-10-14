@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/realslimtaek/leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [2429-design-a-food-rating-system](https://github.com/realslimtaek/leetcode/tree/master/2429-design-a-food-rating-system) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/realslimtaek/leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
+| [3612-adjacent-increasing-subarrays-detection-i](https://github.com/realslimtaek/leetcode/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/realslimtaek/leetcode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/realslimtaek/leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3790-fruits-into-baskets-ii](https://github.com/realslimtaek/leetcode/tree/master/3790-fruits-into-baskets-ii) |
