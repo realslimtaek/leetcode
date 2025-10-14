@@ -8,7 +8,6 @@ class Solution {
     }
 
     public boolean check(List<Integer> nums, int idx, int k) {
-        System.out.println(idx);
         for (int i = idx+1; i < idx + k ; i++) {
             if(nums.get(i) <= nums.get(i-1)) return false;
         }
