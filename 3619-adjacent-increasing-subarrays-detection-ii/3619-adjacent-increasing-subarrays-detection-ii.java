@@ -18,9 +18,8 @@ class Solution {
 
     public int calc(int a, int b, int c) {
         if (a >= b) return a;
-        int abMin = Math.min(a, b);
         int abHalfMax = Math.max(a / 2, b / 2);
-        return Math.max(Math.min(c, b), Math.max(abMin, abHalfMax));
+        return Math.max(Math.min(c, b), Math.max(a, abHalfMax));
     }
 
 }
