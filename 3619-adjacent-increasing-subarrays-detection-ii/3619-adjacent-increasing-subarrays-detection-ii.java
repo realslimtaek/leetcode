@@ -24,6 +24,9 @@ class Solution {
     }
 
     public int calc(int a, int b, int c) {
-        return Math.max(Math.min(c, b), Math.max(b / 2, Math.max(a / 2, Math.min(a, b))));
+        int abMin = Math.min(a, b);
+        int abHalfMax = Math.max(a / 2, b / 2);
+        return Math.max(Math.min(c, b), Math.max(abMin, abHalfMax));
     }
+
 }
