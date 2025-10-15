@@ -1,32 +1,31 @@
 class Solution {
     public int maxIncreasingSubarrays(List<Integer> nums) {
 
-        List<Integer> data = new ArrayList<Integer>();
         int ans = 0;
+        int own = 0;
         int size = nums.size();
         int cnt = 1;
         for (int i = 0; i < size - 1; i++) {
 
             if (nums.get(i) >= nums.get(i + 1)) {
-                data.add(cnt);
+                if (cnt > ans) {
+                    ans = calc(ans, cnt, own);
+                }
+                own = cnt;
                 cnt = 1;
+
+                System.out.println(ans + "       " + own);
                 continue;
             }
             cnt++;
         }
-        data.add(cnt);
-        if (data.size() == 1) {
-            return data.get(0) / 2;
+        if (cnt > ans) {
+            ans = calc(ans, cnt, own);
         }
-
-        for (int i = 0; i < data.size() - 1; i++) {
-            ans = Math.max(ans, calc(data.get(i), data.get(i + 1)));
-        }
-
-        return ans;
+        return ans != 0 ? ans : size / 2;
     }
 
-    public int calc(int a, int b) {
-        return Math.max(b / 2, Math.max(a / 2, Math.min(a, b)));
+    public int calc(int a, int b, int c) {
+        return Math.max(Math.min(c, b), Math.max(b / 2, Math.max(a / 2, Math.min(a, b))));
     }
 }
