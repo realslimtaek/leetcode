@@ -13,8 +13,6 @@ class Solution {
                 }
                 own = cnt;
                 cnt = 1;
-
-                System.out.println(ans + "       " + own);
                 continue;
             }
             cnt++;
