@@ -1,10 +1,7 @@
 class Solution {
     public int maxIncreasingSubarrays(List<Integer> nums) {
 
-        int ans = 0;
-        int own = 0;
-        int size = nums.size();
-        int cnt = 1;
+        int ans = 0, own = 0, cnt = 1, size = nums.size();
         for (int i = 0; i < size - 1; i++) {
 
             if (nums.get(i) >= nums.get(i + 1)) {
@@ -14,7 +11,7 @@ class Solution {
                 continue;
             } else cnt++;
         }
-        
+
         ans = calc(ans, cnt, own);
         return ans != 0 ? ans : size / 2;
     }
