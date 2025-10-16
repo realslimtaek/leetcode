@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/realslimtaek/leetcode/tree/master/0001-two-sum) |
 | [1006-vowel-spellchecker](https://github.com/realslimtaek/leetcode/tree/master/1006-vowel-spellchecker) |
 | [1018-largest-perimeter-triangle](https://github.com/realslimtaek/leetcode/tree/master/1018-largest-perimeter-triangle) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/realslimtaek/leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
@@ -35,6 +36,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/realslimtaek/leetcode/tree/master/0001-two-sum) |
 | [1006-vowel-spellchecker](https://github.com/realslimtaek/leetcode/tree/master/1006-vowel-spellchecker) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/realslimtaek/leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [2429-design-a-food-rating-system](https://github.com/realslimtaek/leetcode/tree/master/2429-design-a-food-rating-system) |
